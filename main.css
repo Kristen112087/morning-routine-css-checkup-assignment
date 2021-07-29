@@ -1,0 +1,76 @@
+.wrapper{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.border-style{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-style h2{
+    font-size: 30px;
+}
+
+.border-style p{
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(133, 0, 29);
+    padding: 10px;
+    width: 50%;
+}
+
+.border-style p:nth-child(2){
+    border-style: dotted;
+    border-color: purple;
+    border-width: 3px;
+    background-color: thistle;
+    height: 25px;
+    text-align: center;
+}
+
+.border-style p:nth-child(3){
+    border-style: dashed;
+    border-color: royalblue;
+    border-width: 3px;
+    background-color: cornflowerblue;
+    height: 1in;
+    text-align: center;
+}
+
+.border-style p:nth-child(4){
+    border-style: double;
+    border-color: salmon;
+    border-width: 3px;
+    background-color: rgb(255, 236, 239);
+    height: 3cm;
+    text-align: center;
+}
+
+.border-style p:nth-child(5){
+    border-style: solid;
+    border-color: slategrey;
+    border-width: 3px;
+    background-color: rgb(236, 236, 236);
+    height: 2in;
+    text-align: center;
+}
+
+.positioning{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0%;
+    right: 0%;
+    background-color: lightyellow;
+    margin-right: 1in;
+    margin-top: 1in;
+    text-align: center;
+    padding: 10px;
+}
+
+/* rule-set #1 */
+#number-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: mediumorchid;
+}
